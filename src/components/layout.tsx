@@ -17,6 +17,7 @@ export default ({ children }: any) => {
   )
   return (
     <div
+      data-test="layout"
       css={css`
         margin: 0 auto;
         max-width: 700px;
